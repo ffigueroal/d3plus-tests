@@ -1,4 +1,13 @@
+@import "~bulma/sass/utilities/all";
+@import "~bulma/sass/base/minireset";
+@import "~bulma/sass/grid/all";
+@import "~bulma/sass/elements/all";
+@import "~bulma/sass/layout/section";
+@import "~bulma/sass/components/all";
+@import "~bulma/sass/form/all";
+
 .App {
+  min-height: 100vh;
   text-align: center;
 }
 
@@ -15,7 +24,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
